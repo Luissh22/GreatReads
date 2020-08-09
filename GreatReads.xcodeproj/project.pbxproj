@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,14 @@
 		A01F59ED24DF5A1D00AEE4DF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F59EC24DF5A1D00AEE4DF /* Tests_macOS.swift */; };
 		A01F59EF24DF5A1D00AEE4DF /* GreatReadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F59C624DF5A1C00AEE4DF /* GreatReadsApp.swift */; };
 		A01F59F024DF5A1D00AEE4DF /* GreatReadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F59C624DF5A1C00AEE4DF /* GreatReadsApp.swift */; };
-		A01F59F124DF5A1D00AEE4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F59C724DF5A1C00AEE4DF /* ContentView.swift */; };
-		A01F59F224DF5A1D00AEE4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F59C724DF5A1C00AEE4DF /* ContentView.swift */; };
 		A01F59F324DF5A1D00AEE4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01F59C824DF5A1D00AEE4DF /* Assets.xcassets */; };
 		A01F59F424DF5A1D00AEE4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01F59C824DF5A1D00AEE4DF /* Assets.xcassets */; };
+		A01F5A0524DF5A3100AEE4DF /* CombineNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = A01F5A0424DF5A3100AEE4DF /* CombineNetworking */; };
+		A01F5A0824DF5A3A00AEE4DF /* CombineNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = A01F5A0724DF5A3A00AEE4DF /* CombineNetworking */; };
+		A01F5A0C24E096D400AEE4DF /* CombineViewModel in Frameworks */ = {isa = PBXBuildFile; productRef = A01F5A0B24E096D400AEE4DF /* CombineViewModel */; };
+		A01F5A0E24E096DF00AEE4DF /* CombineViewModel in Frameworks */ = {isa = PBXBuildFile; productRef = A01F5A0D24E096DF00AEE4DF /* CombineViewModel */; };
+		A01F5A1124E0977900AEE4DF /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F5A1024E0977900AEE4DF /* BookListView.swift */; };
+		A01F5A1224E0977900AEE4DF /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F5A1024E0977900AEE4DF /* BookListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		A01F59C624DF5A1C00AEE4DF /* GreatReadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatReadsApp.swift; sourceTree = "<group>"; };
-		A01F59C724DF5A1C00AEE4DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A01F59C824DF5A1D00AEE4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01F59CD24DF5A1D00AEE4DF /* GreatReads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatReads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01F59D024DF5A1D00AEE4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		A01F59E824DF5A1D00AEE4DF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01F59EC24DF5A1D00AEE4DF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A01F59EE24DF5A1D00AEE4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01F5A1024E0977900AEE4DF /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01F5A0524DF5A3100AEE4DF /* CombineNetworking in Frameworks */,
+				A01F5A0C24E096D400AEE4DF /* CombineViewModel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01F5A0824DF5A3A00AEE4DF /* CombineNetworking in Frameworks */,
+				A01F5A0E24E096DF00AEE4DF /* CombineViewModel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +100,15 @@
 				A01F59E024DF5A1D00AEE4DF /* Tests iOS */,
 				A01F59EB24DF5A1D00AEE4DF /* Tests macOS */,
 				A01F59CE24DF5A1D00AEE4DF /* Products */,
+				A01F5A0624DF5A3A00AEE4DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A01F59C524DF5A1C00AEE4DF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A01F5A0F24E0976100AEE4DF /* Screens */,
 				A01F59C624DF5A1C00AEE4DF /* GreatReadsApp.swift */,
-				A01F59C724DF5A1C00AEE4DF /* ContentView.swift */,
 				A01F59C824DF5A1D00AEE4DF /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +160,21 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		A01F5A0624DF5A3A00AEE4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01F5A0F24E0976100AEE4DF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A01F5A1024E0977900AEE4DF /* BookListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +191,10 @@
 			dependencies = (
 			);
 			name = "GreatReads (iOS)";
+			packageProductDependencies = (
+				A01F5A0424DF5A3100AEE4DF /* CombineNetworking */,
+				A01F5A0B24E096D400AEE4DF /* CombineViewModel */,
+			);
 			productName = "GreatReads (iOS)";
 			productReference = A01F59CD24DF5A1D00AEE4DF /* GreatReads.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +212,10 @@
 			dependencies = (
 			);
 			name = "GreatReads (macOS)";
+			packageProductDependencies = (
+				A01F5A0724DF5A3A00AEE4DF /* CombineNetworking */,
+				A01F5A0D24E096DF00AEE4DF /* CombineViewModel */,
+			);
 			productName = "GreatReads (macOS)";
 			productReference = A01F59D524DF5A1D00AEE4DF /* GreatReads.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +290,10 @@
 				Base,
 			);
 			mainGroup = A01F59C024DF5A1C00AEE4DF;
+			packageReferences = (
+				A01F5A0324DF5A3100AEE4DF /* XCRemoteSwiftPackageReference "CombineNetworking" */,
+				A01F5A0A24E096D400AEE4DF /* XCRemoteSwiftPackageReference "CombineViewModel" */,
+			);
 			productRefGroup = A01F59CE24DF5A1D00AEE4DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01F59F124DF5A1D00AEE4DF /* ContentView.swift in Sources */,
+				A01F5A1124E0977900AEE4DF /* BookListView.swift in Sources */,
 				A01F59EF24DF5A1D00AEE4DF /* GreatReadsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01F59F224DF5A1D00AEE4DF /* ContentView.swift in Sources */,
+				A01F5A1224E0977900AEE4DF /* BookListView.swift in Sources */,
 				A01F59F024DF5A1D00AEE4DF /* GreatReadsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +732,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A01F5A0324DF5A3100AEE4DF /* XCRemoteSwiftPackageReference "CombineNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Luissh22/CombineNetworking.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A01F5A0A24E096D400AEE4DF /* XCRemoteSwiftPackageReference "CombineViewModel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Luissh22/CombineViewModel.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A01F5A0424DF5A3100AEE4DF /* CombineNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A01F5A0324DF5A3100AEE4DF /* XCRemoteSwiftPackageReference "CombineNetworking" */;
+			productName = CombineNetworking;
+		};
+		A01F5A0724DF5A3A00AEE4DF /* CombineNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A01F5A0324DF5A3100AEE4DF /* XCRemoteSwiftPackageReference "CombineNetworking" */;
+			productName = CombineNetworking;
+		};
+		A01F5A0B24E096D400AEE4DF /* CombineViewModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A01F5A0A24E096D400AEE4DF /* XCRemoteSwiftPackageReference "CombineViewModel" */;
+			productName = CombineViewModel;
+		};
+		A01F5A0D24E096DF00AEE4DF /* CombineViewModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A01F5A0A24E096D400AEE4DF /* XCRemoteSwiftPackageReference "CombineViewModel" */;
+			productName = CombineViewModel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A01F59C124DF5A1C00AEE4DF /* Project object */;
 }
