@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CombineNetworking",
+        "repositoryURL": "https://github.com/Luissh22/CombineNetworking.git",
+        "state": {
+          "branch": "master",
+          "revision": "d2bdaa7c938b99f4af4f56f5324af82230cf2de5",
+          "version": null
+        }
+      },
+      {
+        "package": "CombineViewModel",
+        "repositoryURL": "https://github.com/Luissh22/CombineViewModel.git",
+        "state": {
+          "branch": "master",
+          "revision": "dc1ee9039a637e9c7670cfb6731fc724b4c48c4b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
